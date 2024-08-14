@@ -1,0 +1,26 @@
+{
+  "name": "webdesk-server",
+  "version": "1.0.0",
+  "description": "backend for webdesk application",
+  "main": "index.js",
+  "engines": {
+    "proxy": "http://localhost:3000"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "latest-version": "^9.0.0",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.4.0"
+  }
+}
